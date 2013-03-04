@@ -1,0 +1,9 @@
+rails new project name
+can edit the gemfile to modify the versions of gem packages to use
+After editing gemfile, do bundle update and budle install (this will connect to git and pull the specified versions of packages
+<rails server>, get it running\
+localhost:3000 - see the rails homepage
+MVC = Model, view, controler : separate the business logic from input and presentation logic of the GUI
+	Model = the business or domain logic.
+	Browsers send the requests to the controller
+	Controller interacts with the model, generates a view and then displays as HTML response in browser
